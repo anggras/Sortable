@@ -349,8 +349,8 @@
 
 				ghostEl = dragEl.cloneNode(true);
 
-				_css(ghostEl, 'top', rect.top - parseInt(css.marginTop, 10));
-				_css(ghostEl, 'left', rect.left - parseInt(css.marginLeft, 10));
+				_css(ghostEl, 'top', dragEl.offsetTop - parseInt(css.marginTop, 10));
+				_css(ghostEl, 'left', dragEl.offsetLeft - parseInt(css.marginLeft, 10));
 				_css(ghostEl, 'width', rect.width);
 				_css(ghostEl, 'height', rect.height);
 				_css(ghostEl, 'opacity', '0.8');
