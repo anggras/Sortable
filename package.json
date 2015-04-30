@@ -1,7 +1,7 @@
 {
   "name": "sortablejs",
   "exportName": "Sortable",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "devDependencies": {
     "grunt": "*",
     "grunt-version": "*",
@@ -22,7 +22,12 @@
   "keywords": [
     "sortable",
     "reorder",
-    "drag"
+    "drag",
+    "meteor",
+    "angular",
+    "ng-srotable",
+    "react",
+    "mixin"
   ],
   "author": "Konstantin Lebedev <ibnRubaXa@gmail.com>",
   "license": "MIT",
